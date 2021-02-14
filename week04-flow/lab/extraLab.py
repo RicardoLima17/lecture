@@ -7,36 +7,35 @@
 import math
 
 
-number = float(input("Enter the percentages "))
+percentage = float(input("Enter the percentages "))
 
 
 
-percentage = number
+ 
 
-#print('{} your mark is {}'.format(abs(number), math.floor(percentage)))
+print('{} your mark is {}'.format(abs(percentage), math.ceil(percentage)))
 
 
    
-if (percentage >= 0 and percentage< 40):
-    print('{} mark is {}'.format(abs(number), math.ceil(percentage)))
-    print ("Fail")
+if 0 >=   percentage < 39:
+     print ("Fail")
 
-elif (percentage > 40 and percentage < 50):
+elif 40 >= percentage < 49:
     print("Pass")
 
-elif (percentage >= 50 and percentage < 60):
+elif 50 >=  percentage < 59:
     print("Merit 1")
- bnjkh u80o[:~P<]
-elif (percentage >= 60 and percentage < 70):
+
+elif 60 >=  percentage < 70:
     print("Merit2")
 
-elif (percentage >= 70 and percentage < 100.01):
+elif 70 >= percentage <= 100:
     print("Distinction")
 
 else:
      print("Please enter a number between 0 and 100")
 
-
+endprogram = 
 
 
    
