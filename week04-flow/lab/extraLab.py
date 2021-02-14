@@ -1,44 +1,37 @@
-# Extra (I will not give the answer to these)
-# 3. In practice the percentages are rounded ie 69.5 gets rounded to 70 so is equal to a Distinction.
-# How would you modify the program in 1 to deal with this? I see two ways.
 
-# Author Ricardo
+
+percentage = float(input("Please enter the student's percentage mark: "))
+
 
 import math
 
-
-percentage = float(input("Enter the percentages "))
-
-
-
- 
-
+# convert to positive and round to 39.5 to 40
 print('{} your mark is {}'.format(abs(percentage), math.ceil(percentage)))
 
+# Error handling that the number entered is valid
+if (percentage < 0) or (percentage > 100):
+    print('Please enter a number between 0 and 100')
 
-   
-if 0 >=   percentage < 39:
-     print ("Fail")
+#less than 40
+if percentage < 39.49 :  
+    print('Fail')
 
-elif 40 >= percentage < 49:
-    print("Pass")
+#between 40 and 49
+elif percentage < 49.49:  
+    print('Pass')
 
-elif 50 >=  percentage < 59:
-    print("Merit 1")
+#between 50 and 59
+elif percentage < 59.49:  
+    print('Merit 2')
 
-elif 60 >=  percentage < 70:
-    print("Merit2")
+#between 60 and 69
+elif percentage < 69.49:  
+    print('Merit 1')
 
-elif 70 >= percentage <= 100:
-    print("Distinction")
+#only other option is between 70 and 100 
+elif percentage < 100:  
+    print('Distinction')
 
+ #100.1 to infinity 
 else:
-     print("Please enter a number between 0 and 100")
-
-endprogram = 
-
-
-   
-
-
-
+    print('wrong mark') 
