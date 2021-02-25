@@ -22,11 +22,11 @@ elif percentage < 49.49:
 
 #between 50 and 59
 elif percentage < 59.49:  
-    print('Merit 2')
+    print('Merit 1')
 
 #between 60 and 69
 elif percentage < 69.49:  
-    print('Merit 1')
+    print('Merit 2')
 
 #only other option is between 70 and 100 
 elif percentage < 100:  
