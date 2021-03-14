@@ -3,7 +3,8 @@ import json
 
 electricBill = {
     'name' : 'andrew',
-    'amount' : '999'
+    'amount' : '999',
+    'amount' : '9'
 }
 
 #with open("storeData.json", "wt") as f:

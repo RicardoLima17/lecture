@@ -1,35 +1,27 @@
 
-  
+# Author: Ricardo Rodrigues 
 # This program reads in a large text file and outputs the number of "e"s it contains 
-# Author: Ricardo Rodrigues
+# This programme will find the character has 116960, We find "e"
 
 
-#This programme will find the character has 116960, We find "e"
 # import collection to use Counter
 import collections
-
 filename = "moby-dick.txt"
-
 # open file to read
 with open (filename, "r") as info:
-
     # this line count all characteres 
     count = collections.Counter(info.read())
-    
-    # variable to store count
+        # variable to store count
     value = (count)
-
 # print all counter in value
 print(value)
-
-
+   
 # Now we know "e" has 116960
 N = 0
-
 # open file to read
-with open (filename, "r") as f:
+with open (filename, "r") as info:
     # new line 
-    for line in f:
+    for line in info:
         # split variable line and store in new variable words
         words = line.split()
         # words store in new variable i
@@ -42,9 +34,6 @@ with open (filename, "r") as f:
                     N = N + 1
 # print "e" = 116960                
 print (N)
-
-
-
 
 # References:
 #https://www.pythontutorial.net/python-basics/python-read-text-file/
