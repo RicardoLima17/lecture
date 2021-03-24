@@ -28,7 +28,7 @@ with open (filename, "r") as info:
         for i in words:
             # create a new variable letter
             for letter in i:
-                #if find letter "e"
+                # letter "e"
                 if letter == "e":
                     # count n = 0 and count once n + 1 if you use N + 2 count twice "e"
                     N = N + 1
