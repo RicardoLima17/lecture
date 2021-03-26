@@ -1,0 +1,5 @@
+2021-03-26 20:25:05,232 - ERROR - this is an error - line: 20
+2021-03-26 20:25:05,232 - CRITICAL - hiya - line: 21
+2021-03-26 20:25:05,232 - WARNING - dont know joe - line: 22
+2021-03-26 20:25:05,233 - INFO - still going - line: 23
+2021-03-26 20:25:05,233 - DEBUG - and so is this - line: 24
