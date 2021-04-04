@@ -8,3 +8,8 @@
 2021-03-26 20:30:51,035 - WARNING - dont know joe - line: 22
 2021-03-26 20:30:51,035 - INFO - still going - line: 23
 2021-03-26 20:30:51,035 - DEBUG - and so is this - line: 24
+2021-04-04 12:42:13,557 - ERROR - this is an error - line: 20
+2021-04-04 12:42:13,563 - CRITICAL - hiya - line: 21
+2021-04-04 12:42:13,563 - WARNING - dont know joe - line: 22
+2021-04-04 12:42:13,563 - INFO - still going - line: 23
+2021-04-04 12:42:13,563 - DEBUG - and so is this - line: 24
